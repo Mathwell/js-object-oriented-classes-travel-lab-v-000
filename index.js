@@ -23,6 +23,6 @@ blocksTravelled(){
 }
 
 estimatedTime(){
-
+ return this.blocksTravelled()/3
 }
 }

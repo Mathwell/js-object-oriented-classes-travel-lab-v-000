@@ -19,8 +19,9 @@ constructor(beginningLocation,  endingLocation){
 blocksTravelled(){
  let horizontal=indexOf(this.endingLocation.horizontal)-indexOf(this.beginningLocation.horizontal);
  let vertical = indexOf(this.endingLocation.vertical)-indexOf(this.beginningLocation.vertical);
- return(horizontal+vertical)
+ return horizontal+vertical
 }
+
 estimatedTime(){
 
 }

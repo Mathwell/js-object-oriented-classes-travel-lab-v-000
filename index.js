@@ -17,7 +17,7 @@ constructor(beginningLocation,  endingLocation){
 }
 
 blocksTravelled(){
- let horizontal=indexOf(this.endingLocation.horizontal)-indexOf(this.beginningLocation.horizontal);
+ let horizontal=eastWest.indexOf(this.endingLocation.horizontal)-eastWest.indexOf(this.beginningLocation.horizontal);
  let vertical = indexOf(this.endingLocation.vertical)-indexOf(this.beginningLocation.vertical);
  return Math.abs(horizontal)+Math.abs(vertical)
 }
